@@ -13,17 +13,23 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Онлайн библиотека</title>
-        <link href="CSS/style_main.css" rel="stylesheet" type="text/css">
+        <link href="../CSS/style_main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="container">
           <div class="header">
-              <img alt="Место для логотипа" name="logo" width="100%" height="90"/>
-              <form class="search_form" name="search_form" method="POST">
+              <div class="logo">
+              <img src="../images/333.png" alt="Логотип" name="logo" />
+              </div>
+               <div class="descr">
+                    <h3>Онлайн библиотека Станислава</h3>
+                </div>
+                <div class="search_form">
+              <form  name="search_form" method="POST">
                 <img src="../images/222.png" width="20"
                                       height="21"/> 
-                <input type="text" name="search_String" value="" size="100" />
-                    <input type="submit" value="Поиск" name="search_button" />
+                <input  type="text" name="search_String" value="" size="100" />
+                    <input class="search_button" type="submit" value="Поиск" name="search_button" />
                     <select name="search_option">
                         <option>Название</option>
                         <option>Автор</option>
@@ -53,7 +59,7 @@
                 <h1>&nbsp;</h1>
                 <p>&nbsp;</p>
             </div>
-
+</div>
 
                     
         </div><!-- end .container -->
